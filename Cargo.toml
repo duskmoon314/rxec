@@ -1,0 +1,15 @@
+[package]
+name = "rxec"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+chrono = "0.4.26"
+clap = { version = "4.3.11", features = ["derive"] }
+confique = "0.2.4"
+rayon = "1.7.0"
+serde = "1.0.167"
+tokio = { version = "1.29.1", features = ["rt-multi-thread", "process", "macros", "time", "fs", "io-util"] }
